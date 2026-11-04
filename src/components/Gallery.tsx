@@ -37,11 +37,6 @@ export function Gallery() {
                 sizes="(min-width: 768px) 50vw, 50vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
               />
-              <div className="absolute inset-0 flex items-end bg-gradient-to-t from-forest-950/80 to-transparent p-5 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                <p className="translate-y-4 font-semibold text-white transition-transform duration-500 group-hover:translate-y-0">
-                  {g.alt}
-                </p>
-              </div>
             </motion.div>
           ))}
         </div>
